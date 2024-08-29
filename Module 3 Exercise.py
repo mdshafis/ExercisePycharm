@@ -50,9 +50,15 @@ else:
 
 
 #Exercise 04
+
+
 year = ""
+
 while year !="exit":
-    year = int(input("Enter a year or Type 'exit' to Terminate: "))
+    year = input("Enter a year or Type 'exit' to Terminate: ")
+    if year == "exit":
+        break
+    year = int(year)
     if (year%100==0 and year%400==0) or (year%4==0):
         print(f"Wow!! The year {year} is Leap year.")
     else:
