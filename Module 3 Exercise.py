@@ -57,6 +57,7 @@ year = ""
 while year !="exit":
     year = input("Enter a year or Type 'exit' to Terminate: ")
     if year == "exit":
+        print("Thank you for using my program.")
         break
     year = int(year)
     if (year%100==0 and year%400==0) or (year%4==0):
