@@ -1,6 +1,6 @@
 #Exercile 01
 
-size = float(input("Enter the length of the Fish: "))
+size = float(input("Enter the length of the Fish in cm: "))
 
 if 42 <= size:
     print("You can catch the fish.")
@@ -28,7 +28,7 @@ else:
 # Exercise 03
 
 gender = input("Enter your gender (male/female): ")
-hg = int(input("Enter your hemoglobin level: "))
+hg = int(input("Enter your hemoglobin level (g/l): "))
 
 if gender == "male" and 134 <= hg <= 167:
     print("Your Hemoglobin level is Normal")
