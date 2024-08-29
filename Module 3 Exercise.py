@@ -14,13 +14,13 @@ cabin = input("Enter your cabin class type (LUX/A/B/C): ")
 
 
 if cabin == "LUX":
-    print("upper-deck cabin with a balcony.")
+    print("Upper-deck cabin with a balcony.")
 elif cabin == "A":
-    print("above the car deck, equipped with a window.")
+    print("Above the car deck, equipped with a window.")
 elif cabin == "B":
-    print("windowless cabin above the car deck.")
+    print("Windowless cabin above the car deck.")
 elif cabin == "C":
-    print("windowless cabin below the car deck.")
+    print("Windowless cabin below the car deck.")
 else:
     print("Invalid Cabin Class")
 
