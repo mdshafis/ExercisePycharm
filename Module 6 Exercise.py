@@ -15,5 +15,4 @@ def pizzaPurchase():
     elif price2 > price1:
         print(f"You sould purchase pizza 1 bcz it is {price1:.2f} per sqr mtr.")
 
-
 pizzaPurchase()
