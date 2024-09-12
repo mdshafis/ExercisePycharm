@@ -51,3 +51,16 @@
 #         print(f"{number} is not a prime number.")
 # except ValueError:
 #     print("Please enter a valid integer.")
+
+
+# #Exercise 04
+# cities = []
+#
+# # Use a for loop to get the names of five cities from the user
+# for i in range(5):
+#     city = input(f"Enter the name of city {i + 1}: ")
+#     cities.append(city)
+#
+# print("The cities you entered are:")
+# for city in cities:
+#     print(city)
